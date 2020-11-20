@@ -3,30 +3,48 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap" rel="stylesheet">
 
   <meta charset="UTF-8">
   <title>Title</title>
 </head>
 <body>
+<div class="container">
 
+<main class="main">
+            <h2>    MAIN   </h2>
+<div class="myDiv" id ='myDiv' >
+
+          <p class="result" id="target">Change me!</p>
+
+</div>
+
+ <div class= "buttons">
 <form>
-<button class="btn" type="button" id="rock" value="rock" onclick="doSomething(this)">&#x1F5FF</button>
-<button class="btn" type="button" id="scissors" value ="scissors" onclick="doSomething(this)">&#9986</button>
-<button class="btn" type="button" id="paper" value ="paper" onclick="doSomething(this)">&#x1F4C3</button>
+
+<button class="btn" type="button" id="rock" value="rock" onclick="check(this)">&#x1F5FF</button>
+<button class="btn" type="button" id="scissors" value ="scissors" onclick="check(this)">&#9986</button>
+<button class="btn" type="button" id="paper" value ="paper" onclick="check(this)">&#x1F4C3</button> <br> </br>
+
+
+
+<button class="btn" type="button" id="play75">win 75%</button>
+<button class="btn" type="button" id="play">play</button>
+<button class="btn" type="button" id="play100">win 100%</button> <br> </br>
 <button class="btn" type="button" id="playAgain" value ="playAgain">play again</button>
-
-<button type="button" id="play">play</button>
-
-
 </form>
+</div>
 
 
 
 
+</main>
+</div>
 
 
+<script src="./script.js"></script>
 
-        <script src="./script.js"></script>
+
 </body>
 </html>
